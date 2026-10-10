@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Section one */
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-one__s2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.section-one__s2 p {
+    color: gray;
+}
+
+.section-one__s2 p:hover {
+    cursor: pointer;
+    color: white;
+}
+
+/* Section two */
+
+.section-two {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.section-two input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Section three */
+
+.section-three {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.course-card {
+    border: solid black 2px;
+    width: fit-content;
+    display: inline-block;
+}
+
+.section-three img {
+    width: 240px;
+    height: 260px;
+}
+
+.course-card__p:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Section four */
+.section-four {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.section-four p {
+    margin-top: 10px;
+}
+
+/* section five */
+.section-five {
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-five__p {
+    margin-top: 30px;
+    color: gray;
+}
+
+.section-five__p:hover {
+    cursor: pointer;
+    color: white;
+}
